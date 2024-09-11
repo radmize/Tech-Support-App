@@ -36,7 +36,7 @@ class TIcketVC: UIViewController {
                     TTextLabel.text = ticketText
                 }
     }
-    //Exits controller
+    //Exits controller to beginning
     @IBAction func ExitBP(_ sender: Any) {
         navigationController?.popViewController(animated: true)
     }
