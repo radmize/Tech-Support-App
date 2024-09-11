@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61BEAB5AD9C2134A1CA9A4E1 /* Pods_Kama_Diesel_Support.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E476CFB428827D432554E8 /* Pods_Kama_Diesel_Support.framework */; };
+		A81C52D52C10860E006DFEAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81C52D42C10860E006DFEAB /* LoginViewController.swift */; };
+		A81C52D72C10CA36006DFEAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A81C52D62C10CA36006DFEAB /* GoogleService-Info.plist */; };
+		A8420CEE2BE52092004F7C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8420CED2BE52092004F7C36 /* AppDelegate.swift */; };
+		A8420CF02BE52092004F7C36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8420CEF2BE52092004F7C36 /* SceneDelegate.swift */; };
+		A8420CF22BE52092004F7C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8420CF12BE52092004F7C36 /* ViewController.swift */; };
+		A8420CF52BE52092004F7C36 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8420CF42BE52092004F7C36 /* Base */; };
+		A8420CF72BE52094004F7C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8420CF62BE52094004F7C36 /* Assets.xcassets */; };
+		A8420CFA2BE52094004F7C36 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8420CF92BE52094004F7C36 /* Base */; };
+		A84BFAD22BE7EFED000110DF /* UserViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84BFAD12BE7EFED000110DF /* UserViewVC.swift */; };
+		A84BFAD42BE8036E000110DF /* kto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A84BFAD32BE8036E000110DF /* kto.mp3 */; };
+		A86557072BEC080900F4132B /* TIcketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86557062BEC080900F4132B /* TIcketVC.swift */; };
+		A896B9582BE674E7007C0D97 /* t90.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A896B9572BE674E7007C0D97 /* t90.mp3 */; };
+		A8BCEB8A2C04756C009CFAD2 /* 123123123.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8BCEB882C04756C009CFAD2 /* 123123123.xcdatamodeld */; };
+		A8CB8AAA2BEA2AE4002BA073 /* Funky.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CB8AA92BEA2AE4002BA073 /* Funky.swift */; };
+		A8EC089A2BEA7ECB00395ECC /* TechSupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EC08992BEA7ECB00395ECC /* TechSupVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BDB1605BDCD73538F81CF4F /* Pods-Kama Diesel Support.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kama Diesel Support.release.xcconfig"; path = "Target Support Files/Pods-Kama Diesel Support/Pods-Kama Diesel Support.release.xcconfig"; sourceTree = "<group>"; };
+		44E476CFB428827D432554E8 /* Pods_Kama_Diesel_Support.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kama_Diesel_Support.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9942E78CEDA2ABCB2A770A99 /* Pods-Kama Diesel Support.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kama Diesel Support.debug.xcconfig"; path = "Target Support Files/Pods-Kama Diesel Support/Pods-Kama Diesel Support.debug.xcconfig"; sourceTree = "<group>"; };
+		A81C52D42C10860E006DFEAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A81C52D62C10CA36006DFEAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8420CEA2BE52092004F7C36 /* Kama Diesel Support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kama Diesel Support.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8420CED2BE52092004F7C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8420CEF2BE52092004F7C36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8420CF12BE52092004F7C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8420CF42BE52092004F7C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8420CF62BE52094004F7C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8420CF92BE52094004F7C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8420CFB2BE52094004F7C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A84BFAD12BE7EFED000110DF /* UserViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserViewVC.swift; path = "First one Storyboard/Controller/UserViewVC.swift"; sourceTree = SOURCE_ROOT; };
+		A84BFAD32BE8036E000110DF /* kto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kto.mp3; sourceTree = "<group>"; };
+		A86557062BEC080900F4132B /* TIcketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TIcketVC.swift; path = "First one Storyboard/Controller/TIcketVC.swift"; sourceTree = SOURCE_ROOT; };
+		A896B9572BE674E7007C0D97 /* t90.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t90.mp3; sourceTree = "<group>"; };
+		A8BCEB892C04756C009CFAD2 /* 123123123.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 123123123.xcdatamodel; sourceTree = "<group>"; };
+		A8CB8AA92BEA2AE4002BA073 /* Funky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funky.swift; sourceTree = "<group>"; };
+		A8EC08992BEA7ECB00395ECC /* TechSupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TechSupVC.swift; path = "First one Storyboard/Controller/TechSupVC.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8420CE72BE52092004F7C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BEAB5AD9C2134A1CA9A4E1 /* Pods_Kama_Diesel_Support.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B8D957A6FCEE843EEBFF48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9942E78CEDA2ABCB2A770A99 /* Pods-Kama Diesel Support.debug.xcconfig */,
+				1BDB1605BDCD73538F81CF4F /* Pods-Kama Diesel Support.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8420CE12BE52092004F7C36 = {
+			isa = PBXGroup;
+			children = (
+				A8420CEC2BE52092004F7C36 /* First one Storyboard */,
+				A8420CEB2BE52092004F7C36 /* Products */,
+				08B8D957A6FCEE843EEBFF48 /* Pods */,
+				B90FB5F14507B6566FC6CFE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8420CEB2BE52092004F7C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8420CEA2BE52092004F7C36 /* Kama Diesel Support.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8420CEC2BE52092004F7C36 /* First one Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A84BFAD32BE8036E000110DF /* kto.mp3 */,
+				A896B9572BE674E7007C0D97 /* t90.mp3 */,
+				A8CB8AA92BEA2AE4002BA073 /* Funky.swift */,
+				A8CB8AA62BEA29AC002BA073 /* Model */,
+				A8420CED2BE52092004F7C36 /* AppDelegate.swift */,
+				A8420CEF2BE52092004F7C36 /* SceneDelegate.swift */,
+				A896B9552BE67399007C0D97 /* View */,
+				A896B9542BE6737D007C0D97 /* Controller */,
+				A896B9562BE673B6007C0D97 /* Stuff */,
+				A8420CF62BE52094004F7C36 /* Assets.xcassets */,
+				A8420CF82BE52094004F7C36 /* LaunchScreen.storyboard */,
+				A81C52D62C10CA36006DFEAB /* GoogleService-Info.plist */,
+				A8420CFB2BE52094004F7C36 /* Info.plist */,
+			);
+			path = "First one Storyboard";
+			sourceTree = "<group>";
+		};
+		A896B9542BE6737D007C0D97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A86557062BEC080900F4132B /* TIcketVC.swift */,
+				A8EC08992BEA7ECB00395ECC /* TechSupVC.swift */,
+				A84BFAD12BE7EFED000110DF /* UserViewVC.swift */,
+				A8420CF12BE52092004F7C36 /* ViewController.swift */,
+				A81C52D42C10860E006DFEAB /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A896B9552BE67399007C0D97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8420CF32BE52092004F7C36 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A896B9562BE673B6007C0D97 /* Stuff */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stuff;
+			sourceTree = "<group>";
+		};
+		A8CB8AA62BEA29AC002BA073 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8BCEB882C04756C009CFAD2 /* 123123123.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B90FB5F14507B6566FC6CFE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E476CFB428827D432554E8 /* Pods_Kama_Diesel_Support.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8420CE92BE52092004F7C36 /* Kama Diesel Support */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8420CFE2BE52094004F7C36 /* Build configuration list for PBXNativeTarget "Kama Diesel Support" */;
+			buildPhases = (
+				C846D4942F13BB0ACD342776 /* [CP] Check Pods Manifest.lock */,
+				A8420CE62BE52092004F7C36 /* Sources */,
+				A8420CE72BE52092004F7C36 /* Frameworks */,
+				A8420CE82BE52092004F7C36 /* Resources */,
+				36F7E8567A61C328D5BECC9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kama Diesel Support";
+			productName = "First one Storyboard";
+			productReference = A8420CEA2BE52092004F7C36 /* Kama Diesel Support.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8420CE22BE52092004F7C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A8420CE92BE52092004F7C36 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A8420CE52BE52092004F7C36 /* Build configuration list for PBXProject "Kama Diesel Support" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8420CE12BE52092004F7C36;
+			productRefGroup = A8420CEB2BE52092004F7C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8420CE92BE52092004F7C36 /* Kama Diesel Support */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8420CE82BE52092004F7C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84BFAD42BE8036E000110DF /* kto.mp3 in Resources */,
+				A8420CF72BE52094004F7C36 /* Assets.xcassets in Resources */,
+				A8420CFA2BE52094004F7C36 /* Base in Resources */,
+				A896B9582BE674E7007C0D97 /* t90.mp3 in Resources */,
+				A8420CF52BE52092004F7C36 /* Base in Resources */,
+				A81C52D72C10CA36006DFEAB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36F7E8567A61C328D5BECC9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kama Diesel Support/Pods-Kama Diesel Support-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kama Diesel Support/Pods-Kama Diesel Support-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kama Diesel Support/Pods-Kama Diesel Support-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C846D4942F13BB0ACD342776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kama Diesel Support-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8420CE62BE52092004F7C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81C52D52C10860E006DFEAB /* LoginViewController.swift in Sources */,
+				A8BCEB8A2C04756C009CFAD2 /* 123123123.xcdatamodeld in Sources */,
+				A8420CF22BE52092004F7C36 /* ViewController.swift in Sources */,
+				A8420CEE2BE52092004F7C36 /* AppDelegate.swift in Sources */,
+				A86557072BEC080900F4132B /* TIcketVC.swift in Sources */,
+				A84BFAD22BE7EFED000110DF /* UserViewVC.swift in Sources */,
+				A8EC089A2BEA7ECB00395ECC /* TechSupVC.swift in Sources */,
+				A8420CF02BE52092004F7C36 /* SceneDelegate.swift in Sources */,
+				A8CB8AAA2BEA2AE4002BA073 /* Funky.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8420CF32BE52092004F7C36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8420CF42BE52092004F7C36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8420CF82BE52094004F7C36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8420CF92BE52094004F7C36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8420CFC2BE52094004F7C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8420CFD2BE52094004F7C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8420CFF2BE52094004F7C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9942E78CEDA2ABCB2A770A99 /* Pods-Kama Diesel Support.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J42RUQK3TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "First one Storyboard/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radmize.First-one-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8420D002BE52094004F7C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDB1605BDCD73538F81CF4F /* Pods-Kama Diesel Support.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J42RUQK3TN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "First one Storyboard/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.radmize.First-one-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8420CE52BE52092004F7C36 /* Build configuration list for PBXProject "Kama Diesel Support" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8420CFC2BE52094004F7C36 /* Debug */,
+				A8420CFD2BE52094004F7C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8420CFE2BE52094004F7C36 /* Build configuration list for PBXNativeTarget "Kama Diesel Support" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8420CFF2BE52094004F7C36 /* Debug */,
+				A8420D002BE52094004F7C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8BCEB882C04756C009CFAD2 /* 123123123.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8BCEB892C04756C009CFAD2 /* 123123123.xcdatamodel */,
+			);
+			currentVersion = A8BCEB892C04756C009CFAD2 /* 123123123.xcdatamodel */;
+			path = 123123123.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8420CE22BE52092004F7C36 /* Project object */;
+}

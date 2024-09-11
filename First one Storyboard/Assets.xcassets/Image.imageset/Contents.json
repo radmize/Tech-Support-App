@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "logo_design__an_icon_for_tech_support_app__hacker__dynamic_graphic_art__vector_art__minimalist__professional_logo_design_-ugly__deformed__noisy__blurry__low_contrast__text_309564077.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
